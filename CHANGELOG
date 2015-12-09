@@ -1,0 +1,37 @@
+-----------------------------------------------------------------------------
+v0.2.2 | plainprogrammer | 2011-01-26
+
+* Changed name for S3 checksum field to be consistent with S3 documentation.
+-----------------------------------------------------------------------------
+v0.2.1 | plainprogrammer | 2011-01-26
+
+* Changed how checksum is stored and checked by calling to_s.
+-----------------------------------------------------------------------------
+v0.2.0 | plainprogrammer | 2011-01-26
+
+* Files are now checksummed when uploaded to S3 and that checksum is stored
+  as metadata on the file to prevent re-uploading the same files overtop of
+  each other.
+-----------------------------------------------------------------------------
+v0.1.3 | plainprogrammer | 2011-01-25
+
+* Fixed issue with *_merged helpers that was causing calls to error out.
+* Fixed issue with *_merged helpers that was causing calls to get escaped by
+  Rails instead of rendering properly.
+-----------------------------------------------------------------------------
+v0.1.2 | plainprogrammer | 2011-01-25
+
+* Fixed test suite.
+-----------------------------------------------------------------------------
+v0.1.1 | plainprogrammer | 2011-01-18
+
+* Fixed issues with development dependencies.
+* Updated Rakefile to properly include testing and documentation tasks.
+* Did some minor refactoring inside caching tasks.
+-----------------------------------------------------------------------------
+v0.1.0 | plainprogrammer | 2011-01-16
+
+* Converted project into Gem
+* Added task to support S3 distribution
+* Added handling of other static assets when pushing to S3.
+-----------------------------------------------------------------------------

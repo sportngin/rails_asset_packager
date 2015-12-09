@@ -1,0 +1,9 @@
+TODO
+====
+* FEATURE: Add means to track which files that have been uploaded to S3 have been
+  modified to prevent uploading all assets every time you call
+  'rake asset:cache:production.'
+* BUG: Make it so that the asset:cache rake tasks execute properly when called
+  from other rake tasks outside rails_asset_packager rake file.
+* FEATURE: Add capability to ignore assets already included in packaged assets
+  when uploading to S3.

@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    rails_asset_packager (0.1.0)
+      aws-s3 (~> 0.6.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    aws-s3 (0.6.2)
+      builder
+      mime-types
+      xml-simple
+    builder (3.0.0)
+    mime-types (1.16)
+    mocha (0.9.10)
+      rake
+    rake (0.8.7)
+    test-unit (2.1.2)
+    xml-simple (1.0.12)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-s3 (~> 0.6.2)
+  mocha
+  rails_asset_packager!
+  test-unit
