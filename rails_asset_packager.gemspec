@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "aws-s3", "~> 0.6.2"
-  s.add_dependency "uglifier", "~> 3.2.0"
+  s.add_dependency "uglifier", ">= 2.7.2"
 
   s.add_development_dependency "test-unit"
   s.add_development_dependency "mocha"
