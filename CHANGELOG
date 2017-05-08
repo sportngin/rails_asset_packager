@@ -1,4 +1,8 @@
 -----------------------------------------------------------------------------
+v1.0.0 | plainprogrammer | 2017-05-08
+
+* Changed from jsmin to uglifier for js minification.
+-----------------------------------------------------------------------------
 v0.2.2 | plainprogrammer | 2011-01-26
 
 * Changed name for S3 checksum field to be consistent with S3 documentation.
