@@ -1,29 +1,37 @@
 PATH
   remote: .
   specs:
-    rails_asset_packager (0.1.0)
+    rails_asset_packager (0.2.2)
       aws-s3 (~> 0.6.2)
+      uglifier (>= 2.7.2)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    aws-s3 (0.6.2)
+    aws-s3 (0.6.3)
       builder
       mime-types
       xml-simple
-    builder (3.0.0)
-    mime-types (1.16)
+    builder (3.2.3)
+    execjs (2.7.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
     mocha (0.9.10)
       rake
     rake (0.8.7)
     test-unit (2.1.2)
-    xml-simple (1.0.12)
+    uglifier (3.2.0)
+      execjs (>= 0.3.0, < 3)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-s3 (~> 0.6.2)
   mocha
   rails_asset_packager!
   test-unit
+
+BUNDLED WITH
+   1.14.6
