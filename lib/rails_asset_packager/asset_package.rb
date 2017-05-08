@@ -171,7 +171,7 @@ module RailsAssetPackager
         File.open("#{tmp_path}_uncompressed.js", "w") {|f| f.write(source) }
 
         # compress file with JSMin library
-        result = Uglifier.compile(File.read("#{tmp_path}_uncompressed.js"))
+        result = Uglifier.compile(File.read("#{tmp_path}_uncompressed.js"), mangle: false)
 
         # delete temp files if they exist
         File.delete("#{tmp_path}_uncompressed.js") if File.exists?("#{tmp_path}_uncompressed.js")
