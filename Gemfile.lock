@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    rails_asset_packager (0.2.2)
-      aws-s3 (~> 0.6.2)
+    rails_asset_packager (1.0.0)
+      aws-s3 (~> 0.6.3)
       uglifier (>= 2.7.2)
 
 GEM
@@ -21,7 +21,7 @@ GEM
       rake
     rake (0.8.7)
     test-unit (2.1.2)
-    uglifier (3.2.0)
+    uglifier (4.0.1)
       execjs (>= 0.3.0, < 3)
     xml-simple (1.1.5)
 
@@ -34,4 +34,4 @@ DEPENDENCIES
   test-unit
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
